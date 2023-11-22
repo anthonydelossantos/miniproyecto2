@@ -1,0 +1,79 @@
+/* estilos.css */
+body {
+    font-family: 'Caveat', cursive, Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Caveat', cursive;
+    color: #333;
+}
+.banner-image {
+    max-width: 100%; /* Ajusta la imagen al ancho máximo del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    margin-bottom: 20px; /* Espacio entre la imagen y el formulario */
+}
+
+form {
+    margin: 20px auto; /* Centrar el formulario horizontalmente con márgenes automáticos */
+    max-width: 400px; /* Ancho máximo del formulario */
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, select {
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 100%; /* Ajustar el ancho de los campos de entrada al 100% del contenedor */
+}
+
+input[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+hr {
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+/* Estilos específicos para la página visualizar_ordenes.php */
+#total {
+    color: #990000;
+    font-size: 18px;
+}
+
+#plato {
+    color: #333;
+    font-size: 16px;
+}
+
+#porcentaje {
+    color: #0066cc;
+    font-size: 16px;
+}
+
